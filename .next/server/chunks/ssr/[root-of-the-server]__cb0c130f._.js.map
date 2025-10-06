@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hp/Desktop/creatr/app/page.js"],"sourcesContent":["import React from 'react'\n\nfunction page() {\n  return (\n    <div>\n     <h1>Hello next </h1>\n    </div>\n  )\n}\n\nexport default page\n"],"names":[],"mappings":";;;;;AAAA;;;AAEA,SAAS;IACP,qBACE,8OAAC;kBACA,cAAA,8OAAC;sBAAG;;;;;;;;;;;AAGT;uCAEe","debugId":null}}]
-}

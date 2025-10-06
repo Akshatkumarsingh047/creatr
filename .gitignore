@@ -44,3 +44,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 >>>>>>> initla-setup-and-font-changed
+
+# clerk configuration (can include secrets)
+/.clerk/
