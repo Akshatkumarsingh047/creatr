@@ -1,0 +1,25 @@
+/* [project]/app/spacegrotesk_d34fa935.module.css [app-client] (css) */
+@font-face {
+  font-family: spaceGrotesk;
+  src: url("../media/SpaceGrotesk_Regular-s.p.ebc04883.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: spaceGrotesk Fallback;
+  src: local(Arial);
+  ascent-override: 88.75%;
+  descent-override: 26.34%;
+  line-gap-override: 0.0%;
+  size-adjust: 110.87%;
+}
+
+.spacegrotesk_d34fa935-module__9XiSYW__className {
+  font-family: spaceGrotesk, spaceGrotesk Fallback;
+}
+
+.spacegrotesk_d34fa935-module__9XiSYW__variable {
+  --font-space-grotesk: "spaceGrotesk", "spaceGrotesk Fallback";
+}
+
+/*# sourceMappingURL=app_spacegrotesk_d34fa935_module_css_bad6b30c._.single.css.map*/
