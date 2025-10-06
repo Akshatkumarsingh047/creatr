@@ -4,7 +4,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div><Button variant={"primary"}>Hello JS</Button></div>
+    <div></div>
   )
 }
 

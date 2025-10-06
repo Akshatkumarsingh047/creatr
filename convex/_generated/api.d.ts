@@ -13,7 +13,6 @@ import type {
   FilterApi,
   FunctionReference,
 } from "convex/server";
-import type * as useStoreUserEffect from "../useStoreUserEffect.js";
 import type * as user from "../user.js";
 
 /**
@@ -25,7 +24,6 @@ import type * as user from "../user.js";
  * ```
  */
 declare const fullApi: ApiFromModules<{
-  useStoreUserEffect: typeof useStoreUserEffect;
   user: typeof user;
 }>;
 export declare const api: FilterApi<
