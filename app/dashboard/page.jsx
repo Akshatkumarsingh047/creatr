@@ -178,9 +178,9 @@ export default function DashboardPage() {
       </div>
 
       {/* Main Content Grid */}
-      <div className="grid lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Recent Posts */}
-        <div className="lg:col-span-2 space-y-6">
+        <div className=" grid grid-cols-1 lg:col-span-2 space-y-6">
           <Card className="card-glass">
             <CardHeader>
               <div className="flex items-center justify-between">
@@ -281,7 +281,7 @@ export default function DashboardPage() {
           </Card>
 
           {/* Analytics Chart */}
-          <Card className="card-glass">
+          <Card className="card-glass ">
             <CardHeader>
               <CardTitle className="text-white flex items-center">
                 <BarChart3 className="h-5 w-5 mr-2" />

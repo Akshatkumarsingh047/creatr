@@ -17,7 +17,7 @@ export default function Header() {
   const path = usePathname();
   const router = useRouter();
   const { user } = useUser();
-  console.log("Header User:", user);
+  
   // Redirect authenticated users from landing page to feed
   useEffect(() => {
     if (!isLoading && isAuthenticated && path === "/") {
