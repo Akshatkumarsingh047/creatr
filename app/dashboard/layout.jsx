@@ -10,7 +10,9 @@ import {
   Users,
   Menu,
   X,
+  Rss,
   Settings,
+  RssIcon,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -40,6 +42,11 @@ const sidebarItems = [
     title: "Followers",
     href: "/dashboard/followers",
     icon: Users,
+  },
+   {
+    title: "Feed",
+    href: "/feed",
+    icon: RssIcon,
   },
 ];
 
